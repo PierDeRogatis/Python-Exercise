@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Feb  4  2022
+Created on Fri Feb  2  2022
 
 @author: Pierluigi De Rogatis
 """
@@ -11,9 +11,9 @@ Created on Fri Feb  4  2022
 '''
 # 1. PYTHON BASICS
 # 1.1 LOCATION DATA
-Aim to use variables to record data points as countries' name.
-Therefore, first I will create a variable and I will assign the name of the 
-continent, of the country, of the county, of the city, and data ID: 
+Aim to use variables to record data points as countries' names.
+Therefore, I firstly created a variable, and I will assign the name of the 
+continent, of the country, of the county, of the city, and data ID:
 '''
 
 continent = "Europe"
@@ -26,22 +26,21 @@ Country_ISO = 826
 '''
 # 1.2 SMART LIGHT SWITCH
 Aim to create a programme that swith on and off the light based on daytime
-First, I created a variable "day" in which store if it is daytime or not. 
-Then I created a second variable where to insert if to switch the 
-light on or off. 
-I used the "not" function since the light_on variable need to do the opposite 
-than day variable.
-Since I have to store longer value of explanation, I will use the three 
-apostrophe function to accomplish such task.
+First, I created a variable "day" in which store whether it is daytime or not.
+Then, I created a second variable where insert whether to switch the light on
+or off. After that, I used the "not" function since the light_on variable
+needed to do the opposite of the day variable. Since I had to store a longer
+explanatory script, I used the three apostrophe function to accomplish such
+task.
 '''
 
 day = False
 lights_on = not day 
 
 '''
-Then, I will use the "print" function to display the result of my input.
-In other words, I will ask if it daytime and if the programme needs to 
-switch on the lights, replying with the previously stored data. 
+Then, I used the "print" function to display the result of my input. In other
+words, I asked whether it is daytime and whether the programme needs to switch
+on the lights, replying with the previously stored data. 
 '''
 
 print("Daytime?")
@@ -53,9 +52,10 @@ print(lights_on)
 
 '''
 # 1.3 TRACK SALESE DATA
-Aim to track the sales data for an online shop to see if reached the sell target.
-Firstly, I will store the value of the book stock, book sold, and sell target 
-inside their correspective variables.
+Aim to track the sales data for an online shop to see if reached the sell 
+target.
+Firstly, I will store the value of the book stock, the books sold, and the sell
+target inside their respective variables.
 '''
 
 book_stock = 600
@@ -63,8 +63,8 @@ book_sold = 500
 sell_target = 500
 
 '''
-Then, I will use the "==" operator to understand if the shop reached the target
-or not. Since the reply will be True or False (boolean), then I will ask the 
+Then, I used the "==" operator to understand if the shop reached the target or
+not. Since the reply will be True or False (boolean), then I asked the
 programme if the sale target was hit or not. Hence:
 '''
 
@@ -74,9 +74,9 @@ print(target_done)
 
 '''
 Then, to understand if there are still books in the store, I will subtract the
-amount of books sold to the number of book in stock. After that, I will use 
-"!=" (not equal operator) to udnerstand if the shop has still something in stock.
-Since the reply will be True or False (boolean), then I will ask the 
+number of books sold to the number of books in stock. After that, I will use
+"!=" (not equal operator) to understand if the shop has still something in
+stock. Since the reply will be True or False (boolean), then I will ask the
 programme if there is still something or not. Hence:
 '''
 
@@ -90,9 +90,9 @@ print(in_stock)
 '''
 # 2. TYPES AND COMPARISONS
 # 2.1 MEASURE HEART RATE DATA
-With this programme, I will display if the heart rate, stored in a variable
-named "heart_rate" is too elevated or too low. For this task, I will employ
-"<" (less than operator) and ">" (greater than operator). Thus:
+With this programme, I displayed if the heart rate, stored in a variable named
+"heart_rate", is too elevated or too low. For this task, I employed "<" 
+(less than operator) and ">" (greater than operator). Thus:
 '''
 
 heart_rate = 64
@@ -109,10 +109,10 @@ print(too_high)
 
 '''
 # 2.2 SURVEY DATA INSIGHTS
-Aim to use string comparisons to label data acquired through a survey
-For this reason, I created two variables to collect the results of the 
-survey. Then, I used some coding to assess the level of activity and intensity
-of the respondant. Thus:
+Aim to use string comparisons to label data acquired through a survey. 
+For this reason, I created two variables to collect the survey results. Then,
+I used some coding to assess the respondent level of activity and intensity.
+Thus:
 '''
 
 frequency = "never"
@@ -144,10 +144,10 @@ print(low_intensity)
 # 3. CONDITIONAL STATEMENTS
 # 3.1 DOOBER FARE CALCULATOR
 Aim to calculate the different fares depending on chosen types.
-First, I will store the typology of show and the number of credits owned by
-the person. Then, I will use the "if, elif, else" statements to display the 
-different fares based on the show type. Finally, I will insert the final price
-which is deducted if the person own some credits. Hence:
+First, I will store the typology of the show and the number of credits owned
+by the person. Then, I will use the "if, elif, else" statements to display the
+different fares based on the show type. Finally, I will insert the final price,
+which is deducted if the person owns some credits. Hence:
 '''
 
 show_type = "Black"
@@ -174,13 +174,13 @@ print(final_price)
 '''
 # 4. LOOPS
 # 4.1 SHIPPING COST CALCULATOR
-Aim to code a shipping cost calculator
-First, I will store the value of the purchase and if it will be an 
-international shipping or not and shipping cost as zeor. Then, I created an 
-if statement that increases the cost for international shipping. After that,
-I created a code block to change the shipping costs based on the value of the
-purchase. Finally, I will use the "f" to combine everything inside an unique 
-string to display the code of the total shipping cost. 
+Aim to code a shipping cost calculator.
+First, I stored the value of the purchase and if it will be international
+shipping or not and the shipping cost as zero. Then, I created an if statement
+that increases the cost of international shipping. After that, I created a code
+block to change the shipping costs based on the purchase value. Finally, I
+used the "f" to combine everything inside a unique string to display the code
+of the total shipping cost. 
 '''
 
 international_shipping = True
@@ -203,14 +203,14 @@ print(f"Shipping cost: {shipping_cost}")
 
 '''
 # 4.2 COMPOUND INTEREST CALCULATOR
-Aim to see the increase in the amout stored in a bank account.
-Firstly, I will create the variable where to store the account value, the 
-interest rate, and the years in the process. Then, I will create a counter 
-variable to store the first year (or first interaction) in mine while loop.
-Indeed, I create a while loop with condition based on the number of years that
-the money will stay in the account. Inside the while, I calculated the accrued
-interest, then I summed the accrued interest to the account value, I printed
-the result, and then I increased the counter variable by 1. 
+Aim to see the increase in the amount stored in a bank account.
+Firstly, I created the variables that store the account value, the interest
+rate, and the years in the process. Then, I defined a counter variable to keep 
+he first year (or first interaction) in the while loop. Indeed, I created a
+while loop with conditions based on the number of years that money will stay
+in the account. Inside the while, I calculated the accrued interest, then I
+summed the accrued interest to the account value, printed the result, and,
+then, I increased the counter variable by 1.
 '''
 
 account = 10000
@@ -254,9 +254,9 @@ print(passed)
 '''
 # 5.2 STOCKS TRACKER
 Aim to keep track of a company's stock values.
-Thus, I created a list with the firm's stock values. Then, I used the indices
-to change the errate values inside the list and to display the values 
-corresponding to the request data.
+Thus, I created a list with the firm's stock values. Then, I used the indexes
+to change the values inside the list and display the ones corresponding to the
+request data. 
 '''
 
 firm_stocks = [744.9, 793.6, 721.4, 712.3, 800.1]
@@ -276,10 +276,11 @@ print(firm_stocks[3])
 '''
 # 5.3 HUMIDITY MONITOR
 Aim to list the data collected based on soil humidity measurements.
-I collected all the data in a list called "humidity_level". Then, I used the 
-".append" function to add a value at the end of the list, the ".insert" 
-function to insert a value in a specific position of the list, and the ".pop" 
-function to eliminate the final value inside the list.
+I collected all the data in a list called "humidity_level". Then, I used the
+".append" function to add a value at the end of the list. After that, I
+implemented the ".insert" function to insert a value in a specific position of
+the list. Finally, I used the ".pop" function to eliminate the final value
+inside the list. 
 '''
 
 humidity_level = [91, 83, 86, 79, 87, 95, 88]
